@@ -1,0 +1,26 @@
+# IDE
+.idea
+
+# Byte-compiled
+__pycache__/
+*.py[cod]
+
+# Static files
+static/*
+main/static/*
+!main/static/plugins
+!main/static/css
+!main/static/img
+
+# Virtualenv
+venv/
+
+# Temp and cache
+cache/
+.cache/
+
+# Django stuff
+*.log
+*.pot
+*.sqlite3
+
