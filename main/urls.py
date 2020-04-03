@@ -20,7 +20,7 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('landingpage.urls'))
+    path('', include('apps.portal.urls'))
 ] + staticfiles_urlpatterns()
 
 if settings.DEBUG:

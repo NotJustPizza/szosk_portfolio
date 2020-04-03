@@ -47,6 +47,14 @@
     $('#header').addClass('header-scrolled');
   }
 
+  //Logo scroll animation by mazy
+  $('#headerscroll').click(function() {
+    $('html, body').animate({
+      scrollTop: 0
+    }, 1500, 'easeInOutExpo');
+    return false;
+  });
+
   // Smooth scroll for the navigation and links with .scrollto classes
   $('.main-nav a, .mobile-nav a, .scrollto').on('click', function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
