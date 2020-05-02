@@ -8,10 +8,6 @@ __pycache__/
 
 # Static files
 static/*
-main/static/*
-!main/static/plugins
-!main/static/css
-!main/static/img
 
 # Virtualenv
 venv/
